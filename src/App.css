@@ -1,0 +1,23 @@
+.background{
+  width: 1000px;
+  height: 1000px;
+  z-index: 0;
+}
+
+.app{
+}
+
+.container{
+  width: 1000px;
+  height: 1000px;
+
+  position: relative;
+
+}
+
+.circle{
+  z-index: 1;
+  width: 1rem;
+  position: absolute;
+  opacity: 0.5;
+}
