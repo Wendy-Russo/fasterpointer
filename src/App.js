@@ -1,6 +1,6 @@
 import './App.css';
 import data from "./data/images.json"
-import circle from "./data/circle.png"
+//import circle from "./data/circle.png"
 import React, { useState } from 'react';
 
 const users = data.users;
@@ -65,7 +65,7 @@ function App() {
   return (
     <div className="App">
       <div className='container' id='container'  >
-        <img src={closest.url} className="background" id='background' />
+        <img src={closest.url} className="background" id='background' alt=""/>
         
         
       </div>
